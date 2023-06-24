@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "663793788169",
+    "project_id": "mecon-7ccb5",
+    "storage_bucket": "mecon-7ccb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663793788169:android:6ec1a857b3d93bb1fddfd8",
+        "android_client_info": {
+          "package_name": "com.example.mecon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663793788169-4ngld2fqqff4nkusf8t6sqe6uhk3vspp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdob4UoOQwq2Cr7IbphFdXDdx-Dg-n5xc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663793788169-4ngld2fqqff4nkusf8t6sqe6uhk3vspp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
