@@ -60,14 +60,14 @@
                 android:textColor="@color/black"/>
 
             <Button
+                android:id="@+id/loginBtn"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
-                android:text="Login"
-                android:id="@+id/loginBtn"
-                android:textSize="18sp"
                 android:layout_marginTop="30dp"
                 android:backgroundTint="@color/lavender"
-                app:cornerRadius = "20dp"/>
+                android:text="Login"
+                android:textSize="18sp"
+                app:cornerRadius="20dp" />
 
             <TextView
                 android:layout_width="wrap_content"

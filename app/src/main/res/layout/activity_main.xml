@@ -8,15 +8,71 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textview1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Welcome to MeCon!!"
+        android:textColor="@color/black"
         android:textSize="36sp"
-        android:textColor="@color/white"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057" />
+
+
+    <Button
+        android:id="@+id/absent"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/white"
+        android:text="Reporting Absence"
+        android:textColor="@color/lavender"
+        android:textSize="23sp"
+        app:cornerRadius="20dp"
+        android:onClick="openAttendanceActivity"
+        app:layout_constraintBottom_toTopOf="@+id/announcement"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview1"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/announcement"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/white"
+        android:text="Announcements"
+        android:textColor="@color/lavender"
+        android:textSize="23sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/feedback"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview1"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/feedback"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="144dp"
+        android:backgroundTint="@color/white"
+        android:text="Feedbacks"
+        android:textColor="@color/lavender"
+        android:textSize="23sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/logoutBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview1"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/logoutBtn"
